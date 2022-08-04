@@ -31,7 +31,7 @@ router.post('/boards', (req, res) => {
                     data.save();
                 }
             )
-            res.status(200).send("Created");
+            res.status(201).send();
         } else {
             res.status(400).send('Invalid Stage')
         }
