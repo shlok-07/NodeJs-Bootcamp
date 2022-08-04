@@ -38,7 +38,7 @@ const StudentRegister = new mongoose.Schema({
 StudentRegister.methods.generateAuthToken=async function(){       //we'll not use fat arrow function bcoz we need to play with .this keyword
     try {
         console.log(this._id);
-        const token=jwt.sign({_id:this._id.toString()},"sSinghiamafootballerheybuddylight");
+        const token=jwt.sign({_id:this._id.toString()},"MynameisShlokSinghIamABackendDeveloper");
         this.tokens=this.tokens.concat({token:token});
         await this.save();  //to add into database
         console.log(token);
