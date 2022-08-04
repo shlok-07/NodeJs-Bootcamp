@@ -1,6 +1,6 @@
 # NodeJsBootcamp
 
-Project 1
+# Project 1
 Connected to Database Server and to PORT: 5000
 ![](Project/demo%20Images/p1.png)
 
@@ -11,7 +11,7 @@ also add some more Data
 The first created item have an id of 1, the second one, 2,and so on.
 ![](Project/demo%20Images/p1mongodb.png)
 
-Now Update the ID:1 
+Now Update the ID:1 using PUT in POSTMAN
 ![](Project/demo%20Images/p1put.png)
 
 Therefore the Updated Database will be like
@@ -22,7 +22,7 @@ If the stage value passed is not 1,2, or 3, return the status code 400 with no r
 ![](Project/demo%20Images/p1putError.png)
 
 
-#Project2
+# Project2
 
 The top value is 5 so return the names of the top 5 articles based on the number of comments at the Page no. 2.
 
@@ -48,7 +48,9 @@ else
 Database will be Created
 ![](Project/demo%20Images/terminal.png)
 
-and store in MongoDb with the generated  #TOKEN
+
+# Token
+and store in MongoDb with the generated  
 ![](Project/demo%20Images/token.png)
 
 
