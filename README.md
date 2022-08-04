@@ -5,7 +5,7 @@ Connected to Database Server and to PORT: 5000
 ![](Project/demo%20Images/p1.png)
 
 Add new data with post in POSTMAN
-![](Project/demo%20Images/p1Post.png)
+![](Project/demo%20Images/p1Post2.png)
 also add some more Data
 
 The first created item have an id of 1, the second one, 2,and so on.
