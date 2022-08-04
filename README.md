@@ -53,8 +53,8 @@ Those top articles are:
 ```
 npm run dev
 ```
-Simply write **http://localhost:3000** on a server
 ![](Project/demo%20Images/p2start.png)
+Simply write **http://localhost:3000** on a server
 
 LOGIN/SIGNUP Authentication using JWT
 First Page
