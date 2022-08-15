@@ -49,7 +49,7 @@ app.post("/register", async (req, res) => {
             const token = await registerEmployee.generateAuthToken();
 
             const registered = await registerEmployee.save(); // it return promise
-            res.status(201).render("index"); //and we will call our index file
+            res.status(201).render("registersuccess"); //and we will call our registersuccess file
         }
         else {
             res.send('<h1>Password not Matched</h1>');
@@ -74,7 +74,7 @@ app.post('/login', async (req, res) => {
         const token = await idData.generateAuthToken();  // as now idData is an instance of Register Collection
         console.log("the token is : " + token);
         if (isMatch) {
-            res.status(201).render('index');
+            res.status(201).render('loginsuccess');
         }
         else {
             res.send("<h1>Invalid User Credentials</h1>");
